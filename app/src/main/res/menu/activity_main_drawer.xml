@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="http:">
+            <menu>
+                <item
+                    android:id="@+id/httpLoginPhone"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="LoginPhone" />
+                <item
+                    android:id="@+id/httpCamerasJson"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="CamerasJson" />
+                <item
+                    android:id="@+id/httpPing"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Ping" />
+                <item
+                    android:id="@+id/httpLogout"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Logout" />
+            </menu>
+        </item>
+        <item android:title="https:">
+            <menu>
+                <item
+                    android:id="@+id/httpsLoginPhone"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="LoginPhone" />
+                <item
+                    android:id="@+id/httpsCamerasJson"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="CamerasJson" />
+                <item
+                    android:id="@+id/httpsPing"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Ping" />
+                <item
+                    android:id="@+id/httpsLogout"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Logout" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/clear_text"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Clear text" />
+            <item
+                android:id="@+id/clear_cookie"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Clear cookie" />
+        </menu>
+    </item>
+
+</menu>
